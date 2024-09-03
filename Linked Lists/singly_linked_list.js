@@ -94,7 +94,6 @@ class SinglyLinkedList {
     return this.printList();
   }
 
-  // Exercise: Implement reverse() 
   reverse() {
     if (!this.head.next) {
       return this.head;
